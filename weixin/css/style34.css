@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.page3-bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.page3-station{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.page3-bus{
+	position: absolute;
+	left: 0;
+	bottom: 10%;
+	height: 30%;
+}
+
+.page3-avatar{
+	position: absolute;
+	right: 0;
+	bottom: 13%;
+	height: 15%;
+}
+
+.page3-title1{
+	position: absolute;
+	top: 10%;
+	left: 0;
+	height: 5%;
+	
+	display: none;
+}
+
+.page3-title2{
+	position: absolute;
+	top: 18%;
+	left: 0;
+	height: 5%;
+	
+	display: none;
+}
+
+.page3-wall{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 70%;
+	
+	display: none;
+}
+
+.page3-my{
+	position: absolute;
+	bottom: 65%;
+	right: 11%;
+	height: 20%;
+	
+	display: none;
+}
+
+.page3-space{
+	position: absolute;
+	left: 5%;
+	top: 20%;
+	width: 0%;
+}
+
+.page3-where{
+	position: absolute;
+	left: 10%;
+	bottom: 10%;
+	width: 0%;
+}
+
+/*//page4*/
+.page4-bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.page4-title{
+	position: absolute;
+	right: 0;
+	top: 15%;
+	width: 40%;
+	
+}
+
+.page4-off{
+	position: absolute;
+	height: 70%;
+	left: 5%;
+	bottom: 0;
+	z-index: 9;
+}
+
+.page4-click{
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top: 40%;
+	
+	animation:  so 2s infinite;
+}
+
+@keyframes so{
+	0%{}
+	50%{transform: scale(1.1);}
+	100%{transform: scale(1);}
+}
+
+
+.page4-onBg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.page4-wky{
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top: 20%;
+	display: none;
+}
+
+/*设置up的css*/
+.up{
+	position: absolute;
+	bottom: 5%;
+	width: 20%;
+	left: 40%;
+	animation: up 2s infinite;
+}
+
+@keyframes up{
+	0%{}
+	50%{bottom: 3%;}
+	100%{bottom: 5%;}
+}
+
+.music-Btn{
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	width: 15%;
+	/*音乐图标旋转*/
+	animation: zhuan 2s infinite;
+}
+
+@keyframes zhuan{
+	0%{}
+	100%{transform: rotate(360deg);}
+}
